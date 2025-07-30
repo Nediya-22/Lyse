@@ -2,8 +2,7 @@
 
 ## Project Overview
 
-This repository centers on the **computational engineering of two-dimensional (2D) nanomaterials** tailored for **multimodal cancer therapy**. The study aims to model and enhance the **photothermal**, **photodynamic**, and **catalytic** behaviors of functionalized 2D systems such as MoS₂, WS₂, and MoGe₂P₄. Grounded in **solid-state physics**, the work utilizes **density functional theory (DFT)**, **molecular dynamics (MD)**, and **data-driven optimization techniques** to explore structure–property relationships. Advanced **predictive modeling tools** are also incorporated to identify optimal material designs for therapeutic efficacy.
-
+Computationally guided design of two-dimensional (2D) nanomaterials is applied to develop next-generation solutions for multimodal cancer therapy. The study aims to model and enhance the photothermal, photodynamic, and catalytic behaviors of functionalized 2D systems such as MoS₂, WS₂, and MoGe₂P₄. Grounded in solid-state physics, the work utilizes density functional theory (DFT), molecular dynamics (MD), and data-driven optimization techniques to explore structure–property relationships. Advanced predictive modeling tools are also incorporated to identify optimal material designs for therapeutic efficacy.
 ## Goals
 
 * Model and functionalize promising 2D nanomaterials (e.g., MoS₂, MoGe₂P₄)
@@ -15,12 +14,12 @@ This repository centers on the **computational engineering of two-dimensional (2
 ## Tools & Methods
 
 * **Quantum ESPRESSO / VASP** for DFT calculations
-* **LAMMPS / GROMACS** for molecular dynamics
+* **GROMACS** for molecular dynamics
 * **FDTD** simulations for optical absorption modeling
 * **Data-driven strategies** including surrogate modeling, regression analysis, and dimensionality reduction for screening and optimizing candidate materials
 * **Clustering and classification techniques** to map structure-function relationships
 
-## Key References (2025)
+## Key References 
 
 ### 1. [DFT Study on 2D MoGe₂P₄ for Photothermal Therapy](https://www.frontiersin.org/articles/10.3389/fphar.2025.1553158/full)
 
@@ -42,9 +41,9 @@ This repository centers on the **computational engineering of two-dimensional (2
 * Experimental validation of 2D material efficiency in in vitro 3D cultures.
 * Serves as validation data for computational predictions.
 
-### 5. [Minireview on 2D Nanomaterials in Photothermal Therapy](https://pubmed.ncbi.nlm.nih.gov/39936912/)\$1
+### 5. [Minireview on 2D Nanomaterials in Photothermal Therapy](https://pubmed.ncbi.nlm.nih.gov/39936912/)
 
-### 6. [Impact of Different 2D Materials on the Efficacy of Photothermal and Photodynamic Therapy in 3D-Bioprinted Breast Cancer](https://www.sciencedirect.com/science/article/abs/pii/S1742706125000814)
+### 6. [Impact of Different 2D Materials on the Efficacy of Photothermal and Photodynamic Therapy in 3D-Bioprinted Breast Cancer](https://pubs.rsc.org/en/content/articlelanding/2025/nr/d4nr05026f?utm_source=chatgpt.com)
 
 * Investigates the therapeutic outcomes of various 2D materials in a 3D-bioprinted tumor environment.
 
