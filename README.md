@@ -38,10 +38,7 @@ L’**MODÈLE** fournit un modèle de style ou de structure auquel la réponse d
  Exemples scientifiques :
 
 * **DFT** : Rédiger la réponse comme une section *Méthodes* d’un article en science des matériaux.
-* **MD** : Suivre le style d’un tutoriel de simulation destiné aux doctorants.
-* **FDTD** : Structurer comme un résumé de conférence en nanophotonique.
-* **Optimisation** : Présenter comme une section *Résultats/Discussion* dans un article de data science appliqué aux matériaux.
-
+*Rédige la **réponse comme un résumé scientifique d’article ou un exposé académique** sur la non-localité quantique et les expériences d’Alain Aspect
 
 
 ##    RÔLE
@@ -51,10 +48,7 @@ Le ** RÔLE** définit le rôle ou la voix que l’IA doit adopter.
  Exemples scientifiques :
 
 * **DFT** : Se mettre dans la peau d’un physicien computationnel enseignant à des doctorants.
-* **MD** : Adopter la voix d’un biophysicien expliquant des résultats de dynamique moléculaire.
-* **FDTD** : Parler comme un chercheur en photonique s’adressant à ses pairs.
-* **Optimisation** : Répondre comme un data scientist spécialisé en matériaux computationnels.
-
+* **Adopte la voix d’un physicien quantique** expliquant les expériences d’Alain Aspect et leur impact sur la physique moderne
 
 
 ##  FORMAT
@@ -64,10 +58,7 @@ Le **FORMAT** indique comment la réponse doit être structurée (tableaux, équ
  Exemples scientifiques :
 
 * **DFT** : Donner 3 points avec équations LaTeX de l’équation de Schrödinger et transitions optiques.
-* **MD** : Fournir un organigramme ou des étapes numérotées du protocole de simulation.
-* **FDTD** : Expliquer étape par étape (1, 2, 3) avec éventuellement un schéma ASCII.
-* **Optimisation** : Présenter un tableau comparant régression linéaire vs non linéaire.
-
+* Afficher  **sous forme de tableau avec les en-têtes de colonnes ** : Expérience , Protocole , Probabilité de détection  modèle, Implications pour les technologies quantiques.
 
 
 ## TON
@@ -76,10 +67,7 @@ Le **TON** définit le style de communication (académique, pédagogique, vulgar
  Exemples scientifiques :
 
 * **DFT** : Ton académique, précis et formel.
-* **MD** : Ton didactique, adapté à des étudiants avancés.
-* **FDTD** : Ton technique mais engageant, mettant en avant les applications.
-* **Optimisation** : Ton professionnel et concis, destiné à des chercheurs interdisciplinaires.
-
+* Adopte **un style académique** , convenant aux étudiants avancés et aux chercheurs en physique quantique.
 
 
 #  Exemple de prompt complet (Intégration de tous les blocs)
