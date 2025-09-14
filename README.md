@@ -8,7 +8,7 @@ La différence réside souvent dans la façon dont le prompt est formulé.
 Un prompt est un ensemble  d'instructions donnée à une IA pour l’orienter dans la génération d’une réponse précise. Pour créer des prompts de haute qualité, il est utile de les structurer autour de six blocs majeur de construction clés : TÂCHE, CONTEXTE, MODÈLE, RÔLE, FORMAT et TON.
 En combinant ces éléments, les prompts peuvent être adaptés pour produire des réponses précises, fiables et appropriées au contexte, ce qui est particulièrement important dans la communication scientifique.
 
-Étapes pour créer un bon prompt scientifique:
+**Étapes pour créer un bon prompt scientifique**:
 
 ##   TÂCHE
 
@@ -30,7 +30,7 @@ Le **CONTEXTE** définit le cadre scientifique, les hypothèses ou l’environne
 
  
 * **Considérant les expériences réalisées dans les années 80 avec des interféromètres**, explique comment les résultats d’Alain Aspect ont démontré le caractère non-local de la physique quantique
-* **DFT** : Se concentrer sur l’effet des modifications de surface (PEGylation) sur l’absorption NIR-I.
+* **DFT** : Se concentrer sur **l’effet des modifications de surface  sur l’absorption NIR-I**.
 
 ##   MODÈLE
 
@@ -39,7 +39,7 @@ Le **MODÈLE** fournit un modèle de style ou de structure auquel la réponse do
  Exemples :
  
 * Rédige la **réponse comme un résumé scientifique d’article ou un exposé académique** sur la non-localité quantique et les expériences d’Alain Aspect
-* **DFT** : Rédiger la réponse comme une section *Méthodes* d’un article en science des matériaux.
+* **DFT** : Rédiger la réponse comme une section **Méthodes d’un article** en science des matériaux.
 
 
 ##    RÔLE
@@ -49,7 +49,7 @@ Le ** RÔLE** définit le rôle ou la voix que l’IA doit adopter.
  Exemples  :
  
 * **Adopte la voix d’un physicien quantique** expliquant les expériences d’Alain Aspect et leur impact sur la physique moderne
-* **DFT** : Se mettre dans la peau d’un physicien computationnel enseignant à des doctorants.
+* **DFT** : **Mets toi dans la peau d’un physicien computationnel enseignant** à des doctorants et explique les fondements de la DFT.
 
 
 ##  FORMAT
@@ -58,8 +58,8 @@ Le **FORMAT** indique comment la réponse doit être structurée (tableaux, équ
 
  Exemples  :
  
- * Afficher  **sous forme de tableau avec les en-têtes de colonnes ** : Expérience , Protocole , Probabilité de détection  modèle, Implications pour les technologies quantiques.
- * **DFT** : Donner 3 points avec équations LaTeX de l’équation de Schrödinger et transitions optiques.
+ * Afficher  **sous forme de tableau avec les en-têtes de colonnes  : Expérience , Protocole , Probabilité de détection  modèle, Implications pour les technologies quantiques**.
+ * **DFT** : Donner 3 points avec **équations LaTeX de l’équation de Schrödinger et transitions optiques**.
 
 
 ## TON
@@ -68,7 +68,7 @@ Le **TON** définit le style de communication (académique, pédagogique, vulgar
  Exemples scientifiques : 
  
  * Adopte **un style académique** , convenant aux étudiants avancés et aux chercheurs en physique quantique.
- * **DFT** : Ton académique, précis et formel.
+ * **DFT** : Utilse une voix formel , pédagogique.
 
 
 #  Exemple de prompt complet (Intégration de tous les blocs)
