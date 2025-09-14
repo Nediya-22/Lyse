@@ -1,7 +1,12 @@
-# Report on How to Make a Good Scientific Prompt Using Building Blocks
-## Introduction
-This report presents a systematic method for creating good scientific prompts using six key building blocks: TASK, CONTEXT, EXEMPLAR, PERSONA, FORMAT, and TONE. By combining these elements, prompts can be tailored to produce precise, reliable, and context-appropriate responses, which are particularly important in scientific communication.
-Steps in Making a Good Scientific Prompt
+# Rapport sur la façon de créer un bon prompt scientifique en utilisant des blocs de construction
+
+Les prompts efficaces sont essentiels pour guider l’IA générative afin qu’elle produise des résultats précis et pertinents.
+
+## Question : Vous êtes-vous déjà demandé pourquoi certaines réponses de l’IA sont très exactes alors que d’autres ne le sont pas ?
+
+La différence réside souvent dans la façon dont le prompt est formulé. Un prompt est une instruction ou une question donnée à une IA pour l’orienter dans la génération d’une réponse. Pour créer des prompts de haute qualité, il est utile de les structurer autour de six blocs de construction clés : TASK, CONTEXT, EXEMPLAR, PERSONA, FORMAT et TONE. En combinant ces éléments, les prompts peuvent être adaptés pour produire des réponses précises, fiables et appropriées au contexte, ce qui est particulièrement important dans la communication scientifique.
+
+Étapes pour créer un bon prompt scientifique
 
 #  TASK
 
