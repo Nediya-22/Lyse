@@ -4,13 +4,15 @@ Les prompts efficaces sont essentiels pour guider l’IA générative afin qu’
 
 ## Question : Vous êtes-vous déjà demandé pourquoi certaines réponses de l’IA sont très exactes alors que d’autres ne le sont pas ?
 
-La différence réside souvent dans la façon dont le prompt est formulé. Un prompt est une instruction ou une question donnée à une IA pour l’orienter dans la génération d’une réponse. Pour créer des prompts de haute qualité, il est utile de les structurer autour de six blocs de construction clés : TASK, CONTEXT, EXEMPLAR, PERSONA, FORMAT et TONE. En combinant ces éléments, les prompts peuvent être adaptés pour produire des réponses précises, fiables et appropriées au contexte, ce qui est particulièrement important dans la communication scientifique.
+La différence réside souvent dans la façon dont le prompt est formulé. 
+
+Un prompt est une instruction ou une question donnée à une IA pour l’orienter dans la génération d’une réponse. Pour créer des prompts de haute qualité, il est utile de les structurer autour de six blocs de construction clés : TÂCHE, CONTEXTE, MODÈLE, RÔLE, FORMAT et TON. En combinant ces éléments, les prompts peuvent être adaptés pour produire des réponses précises, fiables et appropriées au contexte, ce qui est particulièrement important dans la communication scientifique.
 
 Étapes pour créer un bon prompt scientifique
 
-#  TASK
+##   TÂCHE
 
-Le **TASK** précise exactement ce que l’IA doit accomplir. C’est la formulation directe de la mission.
+Le ** TÂCHE** précise exactement ce que l’IA doit accomplir. C’est la formulation directe de la mission.
 
  Exemples scientifiques :
 
@@ -21,9 +23,9 @@ Le **TASK** précise exactement ce que l’IA doit accomplir. C’est la formula
 
 
 
-#  CONTEXT
+##  CONTEXTE
 
-Le **CONTEXT** définit le cadre scientifique, les hypothèses ou l’environnement du calcul.
+Le **CONTEXTE** définit le cadre scientifique, les hypothèses ou l’environnement du calcul.
 
  Exemples scientifiques :
 
@@ -34,9 +36,9 @@ Le **CONTEXT** définit le cadre scientifique, les hypothèses ou l’environnem
 
 
 
-#  EXEMPLAR
+##   MODÈLE
 
-L’**EXEMPLAR** fournit un modèle de style ou de structure auquel la réponse doit ressembler.
+L’**MODÈLE** fournit un modèle de style ou de structure auquel la réponse doit ressembler.
 
  Exemples scientifiques :
 
@@ -47,9 +49,9 @@ L’**EXEMPLAR** fournit un modèle de style ou de structure auquel la réponse 
 
 
 
-#  PERSONA
+##    RÔLE
 
-Le **PERSONA** définit le rôle ou la voix que l’IA doit adopter.
+Le ** RÔLE** définit le rôle ou la voix que l’IA doit adopter.
 
  Exemples scientifiques :
 
@@ -60,7 +62,7 @@ Le **PERSONA** définit le rôle ou la voix que l’IA doit adopter.
 
 
 
-#  FORMAT
+##  FORMAT
 
 Le **FORMAT** indique comment la réponse doit être structurée (tableaux, équations, listes…).
 
@@ -73,8 +75,8 @@ Le **FORMAT** indique comment la réponse doit être structurée (tableaux, équ
 
 
 
-# 
-Le **TONE** définit le style de communication (académique, pédagogique, vulgarisé, professionnel…).
+## TON
+Le **TON** définit le style de communication (académique, pédagogique, vulgarisé, professionnel…).
 
  Exemples scientifiques :
 
