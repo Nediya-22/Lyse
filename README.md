@@ -5,7 +5,7 @@ Les prompts efficaces sont essentiels pour guider l’IA générative afin qu’
 
 La différence réside souvent dans la façon dont le prompt est formulé. 
 
-Un prompt est un ensemble  d'instructions donnée à une IA pour l’orienter dans la génération d’une réponse précise. Pour créer des prompts de haute qualité, il est utile de les structurer autour de six blocs majeur de construction clés : TÂCHE, CONTEXTE, MODÈLE, RÔLE, FORMAT et TON.
+Un prompt est un ensemble  d'instructions donnée à une IA pour l’orienter dans la génération d’une réponse précise. Pour créer des prompts de haute qualité, il est utile de les structurer autour de six blocs m de construction clés : TÂCHE, CONTEXTE, MODÈLE, RÔLE, FORMAT et TON.
 En combinant ces éléments, les prompts peuvent être adaptés pour produire des réponses précises, fiables et appropriées au contexte, ce qui est particulièrement important dans la communication scientifique.
 
 **Étapes pour créer un bon prompt scientifique**:
@@ -44,7 +44,7 @@ Le **MODÈLE** fournit un modèle de style ou de structure auquel la réponse do
 
 ##    RÔLE
 
-Le ** RÔLE** définit le rôle ou la voix que l’IA doit adopter.
+Le **RÔLE** définit le rôle ou la voix que l’IA doit adopter.
 
  Exemples  :
  
@@ -75,6 +75,3 @@ Le **TON** définit le style de communication (académique, pédagogique, vulgar
 
 * Explique, en tant que physicien théoricien (RÔLE), l’association de deux générateurs de hasard (BS), en montrant la certitude partielle mais l’imprévisibilité du chemin (RT ou TR) (TÂCHE), dans le cadre des expériences sur le hasard quantique et les systèmes probabilistes (CONTEXTE). Rédige comme un court article scientifique (MODÈLE), en trois parties : système, certitude/imprévisibilité, implications (FORMAT), avec un style clair et accessible, adapté à un public scientifique mais non spécialisé (TON) *
 
-
-
-Veux-tu que je **génère un nouveau DOCX** avec cette intégration finale et les titres/sous-titres déjà en couleurs (rouge/bleu) ?
