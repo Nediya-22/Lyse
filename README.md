@@ -16,11 +16,10 @@ Le ** TÂCHE** précise exactement ce que l’IA doit accomplir. C’est la form
 
  Exemples scientifiques :
 
-* **DFT** : Calculer la structure de bande électronique d’un nanomatériau 2D PEGylé avec *Quantum ESPRESSO*.
-* **MD** : Simuler la stabilité d’un nanomatériau PEGylé dans un milieu biologique avec *GROMACS*.
-* **FDTD** : Modéliser l’absorption optique d’un nanomatériau 2D sous lumière NIR-I pour la PTT.
-* **Optimisation** : Utiliser la régression pour optimiser le gap électronique de nanomatériaux 2D en fonction de substitutions atomiques.
-
+ 
+* Explique les expériences d’Alain Aspect sur les interféromètres et le caractère non-local de la physique quantique, 
+⁡
+* **DFT** : Calcule la structure de bande électronique d’un nanomatériau 2D PEGylé avec *Quantum ESPRESSO*.
 
 
 ##  CONTEXTE
@@ -30,11 +29,7 @@ Le **CONTEXTE** définit le cadre scientifique, les hypothèses ou l’environne
  Exemples scientifiques :
 
 * **DFT** : Se concentrer sur l’effet des modifications de surface (PEGylation) sur l’absorption NIR-I.
-* **MD** : Étudier comment la fonctionnalisation influence les interactions avec les membranes biologiques.
-* **FDTD** : Relier l’absorption et l’efficacité de conversion énergétique aux applications PDT/PTT.
-* **Optimisation** : Appliquer l’analyse de données pour identifier les substitutions améliorant la stabilité structurale.
-
-
+* *Considérant les expériences réalisées dans les années 80 avec des interféromètres*, explique comment les résultats d’Alain Aspect ont démontré le caractère non-local de la physique quantique
 
 ##   MODÈLE
 
