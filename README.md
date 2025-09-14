@@ -12,7 +12,7 @@ Un prompt est une instruction ou une question donnée à une IA pour l’oriente
 
 ##   TÂCHE
 
-Le ** TÂCHE** précise exactement ce que l’IA doit accomplir. C’est la formulation directe de la mission.
+Le **TÂCHE** précise exactement ce que l’IA doit accomplir. C’est la formulation directe de la mission.
 
  Exemples scientifiques :
 
@@ -29,7 +29,7 @@ Le **CONTEXTE** définit le cadre scientifique, les hypothèses ou l’environne
  Exemples scientifiques :
 
 * **DFT** : Se concentrer sur l’effet des modifications de surface (PEGylation) sur l’absorption NIR-I.
-* *Considérant les expériences réalisées dans les années 80 avec des interféromètres*, explique comment les résultats d’Alain Aspect ont démontré le caractère non-local de la physique quantique
+* **Considérant les expériences réalisées dans les années 80 avec des interféromètres**, explique comment les résultats d’Alain Aspect ont démontré le caractère non-local de la physique quantique
 
 ##   MODÈLE
 
