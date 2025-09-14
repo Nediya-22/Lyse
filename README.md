@@ -6,15 +6,16 @@ Les prompts efficaces sont essentiels pour guider l’IA générative afin qu’
 
 La différence réside souvent dans la façon dont le prompt est formulé. 
 
-Un prompt est une instruction ou une question donnée à une IA pour l’orienter dans la génération d’une réponse. Pour créer des prompts de haute qualité, il est utile de les structurer autour de six blocs de construction clés : TÂCHE, CONTEXTE, MODÈLE, RÔLE, FORMAT et TON. En combinant ces éléments, les prompts peuvent être adaptés pour produire des réponses précises, fiables et appropriées au contexte, ce qui est particulièrement important dans la communication scientifique.
+Un prompt est une instruction ou une question donnée à une IA pour l’orienter dans la génération d’une réponse. Pour créer des prompts de haute qualité, il est utile de les structurer autour de six blocs de construction clés : TÂCHE, CONTEXTE, MODÈLE, RÔLE, FORMAT et TON.
+En combinant ces éléments, les prompts peuvent être adaptés pour produire des réponses précises, fiables et appropriées au contexte, ce qui est particulièrement important dans la communication scientifique.
 
 Étapes pour créer un bon prompt scientifique
 
 ##   TÂCHE
 
-Le **TÂCHE** précise exactement ce que l’IA doit accomplir. C’est la formulation directe de la mission.
+La **TÂCHE** précise exactement ce que l’IA doit accomplir. C’est la formulation directe de la mission.
 
- Exemples scientifiques :
+ Exemples  :
 
  
 * Explique les expériences d’Alain Aspect sur les interféromètres et le caractère non-local de la physique quantique, 
@@ -26,48 +27,49 @@ Le **TÂCHE** précise exactement ce que l’IA doit accomplir. C’est la formu
 
 Le **CONTEXTE** définit le cadre scientifique, les hypothèses ou l’environnement du calcul.
 
- Exemples scientifiques :
+ Exemples  :
 
-* **DFT** : Se concentrer sur l’effet des modifications de surface (PEGylation) sur l’absorption NIR-I.
+ 
 * **Considérant les expériences réalisées dans les années 80 avec des interféromètres**, explique comment les résultats d’Alain Aspect ont démontré le caractère non-local de la physique quantique
+* **DFT** : Se concentrer sur l’effet des modifications de surface (PEGylation) sur l’absorption NIR-I.
 
 ##   MODÈLE
 
-L’**MODÈLE** fournit un modèle de style ou de structure auquel la réponse doit ressembler.
+Le **MODÈLE** fournit un modèle de style ou de structure auquel la réponse doit ressembler.
 
- Exemples scientifiques :
-
-* **DFT** : Rédiger la réponse comme une section *Méthodes* d’un article en science des matériaux.
+ Exemples :
+ 
 *Rédige la **réponse comme un résumé scientifique d’article ou un exposé académique** sur la non-localité quantique et les expériences d’Alain Aspect
+* **DFT** : Rédiger la réponse comme une section *Méthodes* d’un article en science des matériaux.
 
 
 ##    RÔLE
 
 Le ** RÔLE** définit le rôle ou la voix que l’IA doit adopter.
 
- Exemples scientifiques :
-
-* **DFT** : Se mettre dans la peau d’un physicien computationnel enseignant à des doctorants.
+ Exemples  :
+ 
 * **Adopte la voix d’un physicien quantique** expliquant les expériences d’Alain Aspect et leur impact sur la physique moderne
+* **DFT** : Se mettre dans la peau d’un physicien computationnel enseignant à des doctorants.
 
 
 ##  FORMAT
 
 Le **FORMAT** indique comment la réponse doit être structurée (tableaux, équations, listes…).
 
- Exemples scientifiques :
-
-* **DFT** : Donner 3 points avec équations LaTeX de l’équation de Schrödinger et transitions optiques.
-* Afficher  **sous forme de tableau avec les en-têtes de colonnes ** : Expérience , Protocole , Probabilité de détection  modèle, Implications pour les technologies quantiques.
+ Exemples  :
+ 
+ * Afficher  **sous forme de tableau avec les en-têtes de colonnes ** : Expérience , Protocole , Probabilité de détection  modèle, Implications pour les technologies quantiques.
+ * **DFT** : Donner 3 points avec équations LaTeX de l’équation de Schrödinger et transitions optiques.
 
 
 ## TON
 Le **TON** définit le style de communication (académique, pédagogique, vulgarisé, professionnel…).
 
- Exemples scientifiques :
-
-* **DFT** : Ton académique, précis et formel.
-* Adopte **un style académique** , convenant aux étudiants avancés et aux chercheurs en physique quantique.
+ Exemples scientifiques : 
+ 
+ * Adopte **un style académique** , convenant aux étudiants avancés et aux chercheurs en physique quantique.
+ * **DFT** : Ton académique, précis et formel.
 
 
 #  Exemple de prompt complet (Intégration de tous les blocs)
