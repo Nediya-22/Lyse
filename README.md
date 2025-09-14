@@ -1,12 +1,11 @@
-# Rapport sur la façon de créer un bon prompt scientifique en utilisant des blocs de construction
-
+#  Prompts AI Performants
 Les prompts efficaces sont essentiels pour guider l’IA générative afin qu’elle produise des résultats précis et pertinents.
 
 ## Question : Vous êtes-vous déjà demandé pourquoi certaines réponses de l’IA sont très exactes alors que d’autres ne le sont pas ?
 
 La différence réside souvent dans la façon dont le prompt est formulé. 
 
-Un prompt est une instruction ou une question donnée à une IA pour l’orienter dans la génération d’une réponse. Pour créer des prompts de haute qualité, il est utile de les structurer autour de six blocs de construction clés : TÂCHE, CONTEXTE, MODÈLE, RÔLE, FORMAT et TON.
+Un prompt est un ensemble  instruction o donnée à une IA pour l’orienter dans la génération d’une réponse précise. Pour créer des prompts de haute qualité, il est utile de les structurer autour de six blocs majeur de construction clés : TÂCHE, CONTEXTE, MODÈLE, RÔLE, FORMAT et TON.
 En combinant ces éléments, les prompts peuvent être adaptés pour produire des réponses précises, fiables et appropriées au contexte, ce qui est particulièrement important dans la communication scientifique.
 
 Étapes pour créer un bon prompt scientifique
@@ -74,7 +73,7 @@ Le **TON** définit le style de communication (académique, pédagogique, vulgar
 
 #  Exemple de prompt complet (Intégration de tous les blocs)
 
-*"En tant que chercheur en photonique (PERSONA), explique comment les simulations FDTD (TASK) permettent de modéliser l’absorption de lumière NIR-I dans des nanomatériaux 2D PEGylés (CONTEXT). Présente la réponse en 3 étapes numérotées (FORMAT), avec une équation en LaTeX pour illustrer l’absorption optique. Garde un ton technique mais engageant, en soulignant les applications en PTT et PDT (TONE). Structure l’explication comme un résumé de conférence scientifique (EXEMPLAR)."*
+*Explique, en tant que physicien théoricien (RÔLE), l’association de deux générateurs de hasard (BS), en montrant la certitude partielle mais l’imprévisibilité du chemin (RT ou TR) (TÂCHE), dans le cadre des expériences sur le hasard quantique et les systèmes probabilistes (CONTEXTE). Rédige comme un court article scientifique (MODÈLE), en trois parties : système, certitude/imprévisibilité, implications (FORMAT), avec un style clair et accessible, adapté à un public scientifique mais non spécialisé (TON)*
 
 
 
