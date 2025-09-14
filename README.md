@@ -1,56 +1,84 @@
-# Multimodal Functionalization of 2D Nanomaterials through Computational Design for Targeted Cancer Therapy
+#  TASK
 
-## Project Overview
+Le **TASK** précise exactement ce que l’IA doit accomplir. C’est la formulation directe de la mission.
 
-Computationally guided design of two-dimensional (2D) nanomaterials is applied to develop next-generation solutions for multimodal cancer therapy. The study aims to model and enhance the photothermal, photodynamic, and catalytic behaviors of functionalized 2D systems such as MoS₂, WS₂, and MoGe₂P₄. Grounded in solid-state physics, the work utilizes density functional theory (DFT), molecular dynamics (MD), and data-driven optimization techniques to explore structure–property relationships. Advanced predictive modeling tools are also incorporated to identify optimal material designs for therapeutic efficacy.
-## Goals
+ Exemples scientifiques :
 
-* Model and functionalize promising 2D nanomaterials (e.g., MoS₂, MoGe₂P₄)
-* Simulate their photothermal and photodynamic responses
-* Optimize surface modifications for enhanced therapeutic efficiency
-* Evaluate interactions with anticancer drugs and tumor microenvironments
-* Use pattern recognition and predictive algorithms to accelerate design cycles
-
-## Tools & Methods
-
-* **Quantum ESPRESSO / VASP** for DFT calculations
-* **GROMACS** for molecular dynamics
-* **FDTD** simulations for optical absorption modeling
-* **Data-driven strategies** including surrogate modeling, regression analysis, and dimensionality reduction for screening and optimizing candidate materials
-* **Clustering and classification techniques** to map structure-function relationships
-
-## Key References 
-
-### 1. [DFT Study on 2D MoGe₂P₄ for Photothermal Therapy](https://www.frontiersin.org/articles/10.3389/fphar.2025.1553158/full)
-
-* Simulated NIR-I absorption, PEGylation, and rapid photothermal heating performance.
-* Excellent baseline for modeling emerging 2D photothermal agents.
-
-### 2. [MoS₂/WS₂ Nanocomposites for Multimodal Cancer Therapy](https://pubs.rsc.org/en/content/articlehtml/2025/nr/d4nr05510a)
-
-* Highlights PTT, PDT, and catalytic ROS generation.
-* Discusses how structural modifications influence energy conversion.
-
-### 3. [Photothermal & Catalytic Properties of Doped Metal Sulfides](https://pubs.rsc.org/en/content/articlehtml/2025/na/d4na00929k)
-
-* Reviews Fenton-like mechanisms with ROS production via 2D nanomaterials.
-* Supports inclusion of catalytic therapy in modeling approach.
-
-### 4. [Photothermal Behavior in 3D Cancer Models](https://pubs.rsc.org/en/content/articlelanding/2025/nr/d4nr05026f)
-
-* Experimental validation of 2D material efficiency in in vitro 3D cultures.
-* Serves as validation data for computational predictions.
-
-### 5. [Minireview on 2D Nanomaterials in Photothermal Therapy](https://pubmed.ncbi.nlm.nih.gov/39936912/)
-
-### 6. [Impact of Different 2D Materials on the Efficacy of Photothermal and Photodynamic Therapy in 3D-Bioprinted Breast Cancer](https://pubs.rsc.org/en/content/articlelanding/2025/nr/d4nr05026f?utm_source=chatgpt.com)
-
-* Investigates the therapeutic outcomes of various 2D materials in a 3D-bioprinted tumor environment.
-
-* Provides essential benchmarking data for material selection in computational studies.
-
-* Discusses optical, electronic, and structural engineering of 2D materials.
-
-* Useful for grounding DFT modeling assumptions.
+* **DFT** : Calculer la structure de bande électronique d’un nanomatériau 2D PEGylé avec *Quantum ESPRESSO*.
+* **MD** : Simuler la stabilité d’un nanomatériau PEGylé dans un milieu biologique avec *GROMACS*.
+* **FDTD** : Modéliser l’absorption optique d’un nanomatériau 2D sous lumière NIR-I pour la PTT.
+* **Optimisation** : Utiliser la régression pour optimiser le gap électronique de nanomatériaux 2D en fonction de substitutions atomiques.
 
 
+
+#  CONTEXT
+
+Le **CONTEXT** définit le cadre scientifique, les hypothèses ou l’environnement du calcul.
+
+ Exemples scientifiques :
+
+* **DFT** : Se concentrer sur l’effet des modifications de surface (PEGylation) sur l’absorption NIR-I.
+* **MD** : Étudier comment la fonctionnalisation influence les interactions avec les membranes biologiques.
+* **FDTD** : Relier l’absorption et l’efficacité de conversion énergétique aux applications PDT/PTT.
+* **Optimisation** : Appliquer l’analyse de données pour identifier les substitutions améliorant la stabilité structurale.
+
+
+
+#  EXEMPLAR
+
+L’**EXEMPLAR** fournit un modèle de style ou de structure auquel la réponse doit ressembler.
+
+ Exemples scientifiques :
+
+* **DFT** : Rédiger la réponse comme une section *Méthodes* d’un article en science des matériaux.
+* **MD** : Suivre le style d’un tutoriel de simulation destiné aux doctorants.
+* **FDTD** : Structurer comme un résumé de conférence en nanophotonique.
+* **Optimisation** : Présenter comme une section *Résultats/Discussion* dans un article de data science appliqué aux matériaux.
+
+
+
+#  PERSONA
+
+Le **PERSONA** définit le rôle ou la voix que l’IA doit adopter.
+
+ Exemples scientifiques :
+
+* **DFT** : Se mettre dans la peau d’un physicien computationnel enseignant à des doctorants.
+* **MD** : Adopter la voix d’un biophysicien expliquant des résultats de dynamique moléculaire.
+* **FDTD** : Parler comme un chercheur en photonique s’adressant à ses pairs.
+* **Optimisation** : Répondre comme un data scientist spécialisé en matériaux computationnels.
+
+
+
+#  FORMAT
+
+Le **FORMAT** indique comment la réponse doit être structurée (tableaux, équations, listes…).
+
+ Exemples scientifiques :
+
+* **DFT** : Donner 3 points avec équations LaTeX de l’équation de Schrödinger et transitions optiques.
+* **MD** : Fournir un organigramme ou des étapes numérotées du protocole de simulation.
+* **FDTD** : Expliquer étape par étape (1, 2, 3) avec éventuellement un schéma ASCII.
+* **Optimisation** : Présenter un tableau comparant régression linéaire vs non linéaire.
+
+
+
+# 
+Le **TONE** définit le style de communication (académique, pédagogique, vulgarisé, professionnel…).
+
+ Exemples scientifiques :
+
+* **DFT** : Ton académique, précis et formel.
+* **MD** : Ton didactique, adapté à des étudiants avancés.
+* **FDTD** : Ton technique mais engageant, mettant en avant les applications.
+* **Optimisation** : Ton professionnel et concis, destiné à des chercheurs interdisciplinaires.
+
+
+
+#  Exemple de prompt complet (Intégration de tous les blocs)
+
+*"En tant que chercheur en photonique (PERSONA), explique comment les simulations FDTD (TASK) permettent de modéliser l’absorption de lumière NIR-I dans des nanomatériaux 2D PEGylés (CONTEXT). Présente la réponse en 3 étapes numérotées (FORMAT), avec une équation en LaTeX pour illustrer l’absorption optique. Garde un ton technique mais engageant, en soulignant les applications en PTT et PDT (TONE). Structure l’explication comme un résumé de conférence scientifique (EXEMPLAR)."*
+
+
+
+Veux-tu que je **génère un nouveau DOCX** avec cette intégration finale et les titres/sous-titres déjà en couleurs (rouge/bleu) ?
